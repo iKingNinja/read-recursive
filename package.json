@@ -1,0 +1,24 @@
+{
+  "name": "read-recursive",
+  "version": "1.0.0",
+  "description": "Recursively read all files in a directory and its subdirectories.",
+  "main": "src/index.js",
+  "types": "src/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iKingNinja/read-recursive.git"
+  },
+  "keywords": [
+    "read",
+    "recursive"
+  ],
+  "author": "iKingNinja",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/iKingNinja/read-recursive/issues"
+  },
+  "homepage": "https://github.com/iKingNinja/read-recursive#readme"
+}
