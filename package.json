@@ -1,5 +1,5 @@
 {
-  "name": "read-recursive",
+  "name": "read-recursive.js",
   "version": "1.0.0",
   "description": "Recursively read all files in a directory and its subdirectories.",
   "main": "src/index.js",
