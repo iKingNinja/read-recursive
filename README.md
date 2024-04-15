@@ -5,8 +5,8 @@ This package allows you to easily read all files in a directory and all its subd
 
 # How to use the package
 ```js
-const { read } = require("read-recursive.js");
-const files = await read(__dirname);
+const { readSync } = require("read-recursive.js");
+const files = readSync(__dirname);
 
 console.log(files);
 ```
