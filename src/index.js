@@ -1,1 +1,1 @@
-module.exports.read = require("./lib/index");
+module.exports.readSync = require("./lib/index");

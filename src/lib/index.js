@@ -7,7 +7,7 @@ const path = require("path");
  * @description Reads a directory's content recursively
  */
 
-const read = (readPath, files = []) => {
+const readSync = (readPath, files = []) => {
     // Read the files from readPath
 
     const readFiles = readdirSync(readPath);
@@ -36,7 +36,7 @@ const read = (readPath, files = []) => {
         
         dirs.forEach((dir) => {
             // Reading a directory will add all its files to the files array which will be passed to the next iterations
-            read(path.join(readPath, dir), files);
+            readSync(path.join(readPath, dir), files);
         })
     }
 
@@ -45,4 +45,4 @@ const read = (readPath, files = []) => {
     return files;
 }
 
-module.exports = read;
+module.exports = readSync;

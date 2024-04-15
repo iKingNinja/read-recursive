@@ -1,5 +1,5 @@
 export {};
 
 declare module "read-recursive.js" {
-    export function read(path: string, files?: string[]): Promise<string[]>;
+    export function readSync(path: string, files?: string[]): string[];
 }
